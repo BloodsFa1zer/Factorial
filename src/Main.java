@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        Recursion recursion = new Recursion();
+        System.out.println(recursion.calculateFactorial(n));
+
+    }
+}
